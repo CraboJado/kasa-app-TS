@@ -1,0 +1,35 @@
+.Footer {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6% 0 3% 0;
+    margin-top: 2%;
+}
+
+.Footer__logoWrap {
+    width: 8%;
+}
+
+.Footer__logo {
+    width: 100%;
+}
+
+
+.Footer__copyright {
+    color:#fff; 
+}
+
+@media screen and (max-width: 768px) {
+
+
+
+}
+
+@media screen and (max-width: 576px) {
+    
+    .Footer__logoWrap {
+        width: 26%;
+    }
+}
