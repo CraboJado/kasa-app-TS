@@ -1,0 +1,19 @@
+.CollapseContent {
+    font-size: 0.8em;
+    color: #FF6060;
+    padding: 2% 4%;
+    transition: 0.3s;
+    background-color: #F6F6F6;
+    margin: 0;
+    border-radius: 0.5em;
+    min-height: 150px;
+}
+
+@media screen and (max-width: 768px) {
+
+
+}
+
+@media screen and (max-width: 576px) {
+
+}
