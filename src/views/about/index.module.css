@@ -1,0 +1,35 @@
+.About {
+    padding: 2% 5%;
+}
+
+
+.About__companyValues {
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    gap: 2em;
+    /* height: 100vh; */
+}
+
+.About__content {
+    width: 75%;
+    background-color: #F6F6F6;
+    border-radius: 0.5em;
+    transition: 0.3s;
+    
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .About__content {
+        width: 100%;
+    }
+
+}
+
