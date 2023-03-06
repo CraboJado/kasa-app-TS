@@ -1,0 +1,45 @@
+
+.Error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FF6060;
+    height: 100vh;
+    margin-top: 8em;
+}
+
+.Error__code {
+    font-size: 9em;
+    font-weight: 600;
+    margin: 0;
+}
+
+.Error__msg {
+    font-weight: 500;
+}
+
+.Error a {
+    margin-top: 6em;
+    border-bottom: 1px solid #FF6060;
+    font-size: 0.8em;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .Error__code {
+        font-size: 6em;
+    }
+
+    .Error__msg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
