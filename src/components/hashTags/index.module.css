@@ -1,0 +1,30 @@
+.Hashtags {
+    display: flex;
+    padding:0;
+    margin-top: 4%;
+    font-size:0.5em;
+    gap:2em;
+}
+
+.Hashtags li {
+    background-color: #FF6060;
+    padding: 1.5% 4%;
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+    border-radius: 0.9em;
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+
+
+
+    .Hashtags li {
+        padding: 0.5% 1%;
+    }
+
+}
