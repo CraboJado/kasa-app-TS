@@ -1,0 +1,48 @@
+.Collapse {
+    width: 75%;
+    /* background-color: #F6F6F6; */
+    border-radius: 0.5em;
+    transition: 0.3s;
+    /* height: 100px; */
+    
+}
+
+.Collapse__header {
+    background-color: #FF6060;
+    font-size: 0.8em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3%;
+    border-radius: 0.5em;
+    cursor: pointer;
+    
+}
+
+.Collapse__title {
+    font-weight: 300;
+    margin: 3% 0;
+}
+
+/* .Collapse__chevronDown {
+    display: none;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.Collapse__chevronUp {
+    transition: 0.3s;
+} */
+
+
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+    .Collapse {
+        width: 100%; 
+    }
+}
