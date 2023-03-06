@@ -1,0 +1,12 @@
+.Rating {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+    font-size: 1.3em;
+    gap: 0.3em;
+}
+
+.StarsGrey {
+    color: #E3E3E3;
+}
